@@ -24,6 +24,8 @@ The original data was modified by running the `run_analysis.R` script which does
 
 - subject.id *(the ID of the Subject)*
 - activity *(the Name of the Activity performed by the subject when measurements were taken)*
+
+
 - tbodyacc.mean.x
 - tbodyacc.mean.y
 - tbodyacc.mean.z
@@ -103,10 +105,3 @@ The original data was modified by running the `run_analysis.R` script which does
 - fbodybodygyrojerkmag.mean
 - fbodybodygyrojerkmag.std
 - fbodybodygyrojerkmag.meanfreq
-- angle(tbodyaccmean,gravity)
-- angle(tbodyaccjerkmean),gravitymean)
-- angle(tbodygyromean,gravitymean)
-- angle(tbodygyrojerkmean,gravitymean)
-- angle(x,gravitymean)
-- angle(y,gravitymean)
-- angle(z,gravitymean)

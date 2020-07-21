@@ -30,7 +30,7 @@ feature <- gsub("-", ".", feature)
 colnames(x_data) <- tolower( feature)
 
 # Removing any unrelevnt column, keeping means and std. deviations
-dt <- x_data[, colnames(x_data)  %like% "(mean|std)" , with=FALSE]
+dt <- x_data[, colnames(x_data)  %like% "(\\.mean|\\.std)" , with=FALSE]
 
 # adding a column with appropriate activity labels
 dt$activity <-  as.character(factor(y_data$V1, levels = 1:6, labels = activity))
