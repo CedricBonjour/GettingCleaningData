@@ -2,13 +2,10 @@
 Getting and Cleaning Data Course project
 
 
-All the data used originates from : 
-
-[This link to a zip file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-
+All the data used originates from [this link to a zip file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 Full description of the data can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
-The data has been extracted to the repo's `data\UCI HAR Dataset` folder
+The data has been extracted to the repo's `data\UCI_HAR_Dataset` folder
 
 
 ## Tidy data with the `run_analysis.R` script
